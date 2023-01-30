@@ -1,0 +1,36 @@
+:root {
+  --main-bg-color: #E6E6E6;
+  --second-bg-color: #FFFFFF;
+  --site-blue-01: #1E1F26;
+  --site-blue-02: #2F0472;
+  --site-blue-03: #111D37;
+  text-align: center;
+}
+
+@font-face {
+  font-family: "GoGoHackRegular";
+  src: local("Gogo Hack"),
+    url("./fonts/GoGo\ Hack.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "GoGoHackItalic";
+  src: local("Gogo Hack Italic"),
+    url("./fonts/GoGo\ Hack\ Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "GoghExtraBold";
+  src: local("Gogh ExtraBold"),
+    url("./fonts/Gogh-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "GoghExtraBoldItalic";
+  src: local("Gogh ExtraBold Italic"),
+    url("./fonts/Gogh-ExtraBoldItalic.ttf") format("truetype");
+}
+
+body {
+  font-family: 'GoghExtraBold', sans-serif;
+}

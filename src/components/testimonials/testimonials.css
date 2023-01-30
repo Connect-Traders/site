@@ -1,0 +1,41 @@
+@import '../../App.css';
+
+.testimonials {
+    background-color: var(--second-bg-color);
+    padding: 2em;
+}
+
+.title h1 {
+    font-size: 3.5em;
+    color: var(--site-blue-02);
+}
+
+.vector img {
+    width: 200px;
+}
+
+.citation h3 {
+    font-size: 2em;
+}
+
+.userTestimonial img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.userName h5 {
+    color: var(--site-blue-02);
+    font-size: 1.5em;
+}
+
+/* Responsive */
+@media (max-width:768px) {
+    .title h1 {
+        font-size: 2.5em;
+    }
+
+    .citation h3 {
+        font-size: 1.5em;
+    }
+}
