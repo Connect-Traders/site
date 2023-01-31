@@ -1,0 +1,60 @@
+@import '../../App.css';
+
+.thebest {
+    display: flex;
+    background-color: var(--main-bg-color);
+    padding: 2em;
+}
+
+.image img {
+    width: 100%;
+    border-radius: 1em;
+}
+
+.text {
+    text-align: left;
+    padding-left: 2em;
+}
+
+.text h1 {
+    font-size: 2.5em;
+    color: var(--site-blue-02);
+}
+
+.text h4 {
+    font-size: 1.5em;
+}
+
+.text ul {
+    list-style: none;
+    padding: 0;
+}
+
+.text li {
+    font-size: 1.2em;
+}
+
+.text svg {
+    color: var(--site-blue-02);
+}
+
+/* Responsive */
+@media (max-width:768px) {
+    .thebest {
+        flex-direction: column;
+        padding: 1em;
+    }
+
+    .text {
+        text-align: center;
+        padding: 0;
+    }
+    
+    .text h1 {
+        font-size: 2.5em;
+    }
+
+    .text h4 {
+        font-size: 1.5em;
+    }
+}

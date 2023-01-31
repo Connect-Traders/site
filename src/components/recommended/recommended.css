@@ -1,0 +1,61 @@
+@import '../../App.css';
+
+.recommended {
+    background-color: var(--site-blue-02);
+    margin: 2em;
+    padding: 2em;
+    border-radius: 2em;
+}
+
+.recommended h1 {
+    font-size: 3em;
+    color: var(--second-bg-color);
+}
+
+.boxRecommended {
+    display: flex;
+    background-color: var(--second-bg-color);
+    border-radius: 1em;
+}
+
+.itemRecommended {
+    flex: 1;
+    padding: 2em;
+}
+
+.buttonRec {
+    margin-top: 5em;
+    margin-bottom: 3em;
+}
+
+.buttonRecommended {
+    padding: 1em;
+    background-color: var(--second-bg-color);
+    border-radius: 3em;
+    text-decoration: none;
+    color: var(--site-blue-02);
+}
+
+.buttonRecommended:hover {
+    background-color: var(--site-blue-02);
+    color: var(--second-bg-color);
+    border: 1pt solid var(--second-bg-color);
+    transition: all 0.3s;
+}
+
+/* Responsive */
+@media (max-width:768px) {
+    .recommended {
+        flex-direction: column;
+        margin: 1em;
+    }
+
+    .boxRecommended {
+        flex-wrap: wrap;
+    }
+
+    .recommended h1 {
+        font-size: 2em;
+    }
+
+}
